@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiOperator", "TaxiOperator\TaxiOperator.csproj", "{628C7996-E2D7-4908-8F20-0969C365C241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiOperator.Entities", "TaxiOperator.Entities\TaxiOperator.Entities.csproj", "{FFFAD990-8FAC-4C5A-984F-15C4845829C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiOperator.Business", "TaxiOperator.Business\TaxiOperator.Business.csproj", "{CC66DF40-104C-48E1-8DCE-5B76024C7925}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiOperator.Filter", "TaxiOperator.Filter\TaxiOperator.Filter.csproj", "{CBFA0587-224E-49EC-894E-AC8494E204E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiOperator.Repository", "TaxiOperator.Repository\TaxiOperator.Repository.csproj", "{D1CECF22-7346-400B-981D-21E1FF0FB71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiOperator.Middleware", "TaxiOperator.Middleware\TaxiOperator.Middleware.csproj", "{15C3F37E-71F6-4A24-A6B1-9F7373474864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiOperator.Extension", "TaxiOperator.Extension\TaxiOperator.Extension.csproj", "{C05B0BA9-6134-4279-9CF0-251EEC1567DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628C7996-E2D7-4908-8F20-0969C365C241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628C7996-E2D7-4908-8F20-0969C365C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628C7996-E2D7-4908-8F20-0969C365C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628C7996-E2D7-4908-8F20-0969C365C241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFAD990-8FAC-4C5A-984F-15C4845829C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFAD990-8FAC-4C5A-984F-15C4845829C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFAD990-8FAC-4C5A-984F-15C4845829C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFAD990-8FAC-4C5A-984F-15C4845829C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC66DF40-104C-48E1-8DCE-5B76024C7925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC66DF40-104C-48E1-8DCE-5B76024C7925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC66DF40-104C-48E1-8DCE-5B76024C7925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC66DF40-104C-48E1-8DCE-5B76024C7925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFA0587-224E-49EC-894E-AC8494E204E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFA0587-224E-49EC-894E-AC8494E204E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFA0587-224E-49EC-894E-AC8494E204E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFA0587-224E-49EC-894E-AC8494E204E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CECF22-7346-400B-981D-21E1FF0FB71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CECF22-7346-400B-981D-21E1FF0FB71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CECF22-7346-400B-981D-21E1FF0FB71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CECF22-7346-400B-981D-21E1FF0FB71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C3F37E-71F6-4A24-A6B1-9F7373474864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C3F37E-71F6-4A24-A6B1-9F7373474864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C3F37E-71F6-4A24-A6B1-9F7373474864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C3F37E-71F6-4A24-A6B1-9F7373474864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05B0BA9-6134-4279-9CF0-251EEC1567DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05B0BA9-6134-4279-9CF0-251EEC1567DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05B0BA9-6134-4279-9CF0-251EEC1567DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05B0BA9-6134-4279-9CF0-251EEC1567DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9608F0FB-C787-4886-9E63-53C7EAC15841}
+	EndGlobalSection
+EndGlobal
